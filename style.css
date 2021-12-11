@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #fdc800;
+}
+
+.navbar-wrapper {
+  width: 1170px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 0;
+}
+
+.navbar-addresses {
+  display: flex;
+  flex-direction: row;
+  color: #212529;
+}
+
+.navbar-address-item {
+  margin-right: 35px;
+}
+
+.navbar-addresses .navbar-address-item > span {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.navbar-social-links > a {
+  color: #212529;
+  text-decoration: none;
+
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.navbar-social-links > a.facebook-link:hover {
+  color: #1d68ca;
+}
+
+.navbar-social-links > a.twitter-link:hover {
+  color: rgb(29, 155, 240);
+}
+
+.navbar-social-links > a.pinterest-link:hover {
+  color: #b7081b;
+}
+
+.navbar-social-links > a.instagram-link:hover {
+  color: #cf3174;
+}
