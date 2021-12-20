@@ -1,6 +1,14 @@
+@import url(common.css);
+@import url(countdown.css);
+@import url(featured-courses.css);
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  padding-bottom: 100px;
 }
 
 .topbar {
@@ -42,6 +50,8 @@
 
   margin-left: 15px;
   font-size: 18px;
+
+  transition: all ease 0.2s;
 }
 
 .topbar-social-links > a.facebook-link:hover {
@@ -61,7 +71,7 @@
 }
 
 .navbar-container {
-  background-color: #F0F4F9;
+  background-color: #f0f4f9;
 }
 
 .navbar {
@@ -121,7 +131,7 @@
   padding: 0 20px;
   line-height: 40px;
   font-weight: 400;
-  background-color: #FDC800;
+  background-color: #fdc800;
   border-radius: 4px;
   text-decoration: none;
 }
@@ -129,7 +139,7 @@
 .nav-actions .search-btn {
   width: 40px;
   border-radius: 4px;
-  border: 1px solid #BDBDBD;
+  border: 1px solid #bdbdbd;
   background-color: white;
   line-height: 38px;
   margin-left: 15px;
@@ -140,9 +150,9 @@
 }
 
 .hero-container {
-  background-color: #F0F4F9;
+  background-color: #f0f4f9;
 
-  padding: 60px 0 80px;
+  padding: 60px 0 170px;
 }
 
 .hero {
@@ -179,10 +189,6 @@
   width: 100%;
 }
 
-.hero-actions {
-  display: flex;
-}
-
 .btn-get-quote {
   padding: 16px 40px;
 }
@@ -190,26 +196,4 @@
 .btn-read-more {
   padding: 16px 40px;
   margin-left: 15px;
-}
-
-/*
-Common classes
-*/
-
-.btn-primary {
-  display: block;
-  background-color: #FDC800;
-  color: #002147;
-  font-size: 16px;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-.btn-secondary {
-  background-color: white;
-  border: 1px solid #BDBDBD;
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 16px;
-  color: #002147;
 }

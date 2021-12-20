@@ -1,0 +1,61 @@
+.countdown-container {
+  margin-top: -100px;
+}
+
+.countdown-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #002147;
+  border: 1px solid #707070;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.countdown-info {
+  display: flex;
+  align-items: center;
+}
+
+.countdown-info > h4 {
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: white;
+  max-width: 350px;
+
+  margin-left: 20px;
+}
+
+.countdown-info .countdown-info-note {
+  color: #fdc800;
+}
+
+.countdown {
+  display: flex;
+  color: white;
+  width: 400px;
+  justify-content: space-between;
+
+  font-family: "Inter", sans-serif;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown-item .countdown-number {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.countdown-colon {
+  font-size: 22px;
+
+  margin-top: 15px;
+}

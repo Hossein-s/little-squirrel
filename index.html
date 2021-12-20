@@ -1,94 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="fontawesome/css/all.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Little Squirrel</title>
+  </head>
 
-  <title>Little Squirrel</title>
-</head>
-
-<body>
-  <div class="topbar">
-    <div class="topbar-wrapper">
-      <div class="topbar-addresses">
-        <div class="topbar-address-item">
-          <i class="fas fa-map-marker-alt topbar-address-item-icon"></i>
-          <span class="topbar-address-item-text">1600 Amphitheatre Parkway, CA 94043</span>
+  <body>
+    <div class="topbar">
+      <div class="topbar-wrapper">
+        <div class="topbar-addresses">
+          <div class="topbar-address-item">
+            <i class="fas fa-map-marker-alt topbar-address-item-icon"></i>
+            <span class="topbar-address-item-text"
+              >1600 Amphitheatre Parkway, CA 94043</span
+            >
+          </div>
+          <div class="topbar-address-item">
+            <i class="fas fa-envelope topbar-address-item-icon"></i>
+            <span class="topbar-address-item-text">vctung@outlook.com</span>
+          </div>
         </div>
-        <div class="topbar-address-item">
-          <i class="fas fa-envelope topbar-address-item-icon"></i>
-          <span class="topbar-address-item-text">vctung@outlook.com</span>
-        </div>
-      </div>
 
-      <div class="topbar-social-links">
-        <a href="http://facebook.com/hs" target="_blank" class="facebook-link">
-          <i class="fab fa-facebook-f topbar-address-item-icon"></i>
-        </a>
-        <a href="http://pinterest.com/hs" target="_blank" class="pinterest-link">
-          <i class="fab fa-pinterest topbar-address-item-icon"></i>
-        </a>
-        <a href="http://twitter.com/hs" target="_blank" class="twitter-link">
-          <i class="fab fa-twitter topbar-address-item-icon"></i>
-        </a>
-        <a href="http://instagram.com/hs" target="_blank" class="instagram-link">
-          <i class="fab fa-instagram topbar-address-item-icon"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="navbar-container">
-    <div class="navbar">
-      <div class="navbar-logo">
-        <a href="/">
-          <img src="images/logo.png" alt="Little Squirrel">
-        </a>
-        <a href="/">
-          <span>For Education</span>
-        </a>
-      </div>
-
-      <div class="nav-wrapper">
-        <nav class="nav">
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Courses</a>
-          <a href="/">Contact</a>
-        </nav>
-
-        <div class="nav-actions">
-          <a href="/signup" class="nav-signup">Sign up</a>
-          <button type="button" class="search-btn">
-            <i class="fas fa-search"></i>
-          </button>
+        <div class="topbar-social-links">
+          <a
+            href="http://facebook.com/hs"
+            target="_blank"
+            class="facebook-link"
+          >
+            <i class="fab fa-facebook-f topbar-address-item-icon"></i>
+          </a>
+          <a
+            href="http://pinterest.com/hs"
+            target="_blank"
+            class="pinterest-link"
+          >
+            <i class="fab fa-pinterest topbar-address-item-icon"></i>
+          </a>
+          <a href="http://twitter.com/hs" target="_blank" class="twitter-link">
+            <i class="fab fa-twitter topbar-address-item-icon"></i>
+          </a>
+          <a
+            href="http://instagram.com/hs"
+            target="_blank"
+            class="instagram-link"
+          >
+            <i class="fab fa-instagram topbar-address-item-icon"></i>
+          </a>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="hero-container">
-    <section class="hero">
-      <div class="hero-left">
-        <h5>Become Master</h5>
-        <h2>Learn New Skills Online Find Best Courses</h2>
-        <div class="hero-actions">
-          <a href="#" class="btn-primary btn-get-quote">Get A Quote</a>
-          <a href="#" class="btn-secondary btn-read-more">Read more</a>
+    <div class="navbar-container">
+      <div class="navbar">
+        <div class="navbar-logo">
+          <a href="/">
+            <img src="images/logo.png" alt="Little Squirrel" />
+          </a>
+          <a href="/">
+            <span>For Education</span>
+          </a>
+        </div>
+
+        <div class="nav-wrapper">
+          <nav class="nav">
+            <a href="/">Home</a>
+            <a href="/">About</a>
+            <a href="/">Courses</a>
+            <a href="/">Contact</a>
+          </nav>
+
+          <div class="nav-actions">
+            <a href="/signup" class="nav-signup">Sign up</a>
+            <button type="button" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
         </div>
       </div>
+    </div>
 
-      <div class="hero-right">
-        <img src="images/Analytic.png" alt="Analytic">
+    <div class="hero-container">
+      <section class="hero">
+        <div class="hero-left">
+          <h5>Become Master</h5>
+          <h2>Learn New Skills Online Find Best Courses</h2>
+          <div class="hero-actions">
+            <a href="#" class="btn-primary btn-get-quote">Get A Quote</a>
+            <a href="#" class="btn-secondary btn-read-more">Read more</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <img src="images/Analytic.png" alt="Analytic" />
+        </div>
+      </section>
+    </div>
+
+    <div class="countdown-container">
+      <div class="countdown-box">
+        <div class="countdown-info">
+          <img src="./images/Success.png" alt="Success" />
+          <h4>
+            Upcoming Our
+            <span class="countdown-info-note">Basic in Python</span> Course!
+          </h4>
+        </div>
+
+        <div class="countdown">
+          <div class="countdown-item">
+            <span class="countdown-number">11</span>
+            <span class="countdown-unit">Days</span>
+          </div>
+          <div class="countdown-colon">:</div>
+          <div class="countdown-item">
+            <span class="countdown-number">02</span>
+            <span class="countdown-unit">Hours</span>
+          </div>
+          <div class="countdown-colon">:</div>
+          <div class="countdown-item">
+            <span class="countdown-number">45</span>
+            <span class="countdown-unit">Minutes</span>
+          </div>
+          <div class="countdown-colon">:</div>
+          <div class="countdown-item">
+            <span class="countdown-number">21</span>
+            <span class="countdown-unit">Seconds</span>
+          </div>
+        </div>
       </div>
-    </section>
-  </div>
-</body>
+    </div>
 
+    <div class="feature-courses-wrapper">
+      <div class="featured-courses-container">
+        <h2>Top Featured Courses</h2>
+
+        <div class="featured-courses">
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User Experience Design</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User Experience Design</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User Experience Design</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User Experience Design</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User Experience Design</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User Experience Design</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User Experience Design</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User Experience Design</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User Experience Design</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User Experience Design</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+          <div class="featured-course">
+            <div class="feature-course-image">
+              <img src="images/course1-thumbnail.png" alt="Course 1" />
+
+              <div class="feature-course-org-image">
+                <img src="images/course1-icon.png" alt="ulberta" />
+              </div>
+            </div>
+            <div class="featured-course-info">
+              <h3>
+                <a href="/">User Research for User Experience Design</a>
+              </h3>
+              <a href="/" class="feature-course-organization">The Museum of Modern Art</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
