@@ -1,0 +1,108 @@
+.feedback-container {
+  width: 1170px;
+  margin: 0 auto;
+
+  padding-top: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+}
+
+.feedback-image-section {
+  position: relative;
+  padding-top: 45px;
+  padding-left: 45px;
+}
+
+.feedback-image-container img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.feedback-student-name-box {
+  background-color: #fff;
+  margin: -45px 30px 0;
+  position: relative;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px;
+
+  font-family: "Inter", sans-serif;
+
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.05);
+}
+
+.feedback-student-name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feedback-student-occupation {
+  font-size: 14px;
+  color: #757575;
+  font-weight: normal;
+}
+
+.feedback-instagram-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.feedback-text-section {
+  padding-top: 45px;
+}
+
+.feedback-title {
+  font-size: 52px;
+  font-family: "Raleway", sans-serif;
+
+  color: #002147;
+}
+
+.feedback-text {
+  color: #212529;
+  font-size: 15px;
+  line-height: 21px;
+  margin-top: 20px;
+
+  font-family: "Inter", sans-serif;
+}
+
+.feedback-taken-courses-container {
+  margin-top: 45px;
+}
+
+.feedback-taken-courses-title {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+.feedback-taken-course {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #f0f4f9;
+}
+
+.feedback-taken-course img {
+  border-radius: 6px;
+}
+
+.feedback-taken-course-info {
+  margin-left: 15px;
+}
+
+.feedback-course-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #002147;
+  margin-bottom: 7px;
+}
+
+.feedback-course-venue {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #757575;
+}

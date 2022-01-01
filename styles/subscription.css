@@ -1,0 +1,65 @@
+.subscription-container {
+  width: 850px;
+
+  padding: 80px 0;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.subscription-container img {
+  width: 250px;
+}
+
+.subscription-box {
+  flex: 1 1 0;
+}
+
+.subscription-hint {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: #fdc800;
+}
+
+.subscription-desc {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  color: #002147;
+}
+
+.subscription-input-wrapper {
+  margin-top: 30px;
+  position: relative;
+}
+
+.subscription-input {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  border: 1px solid #bdbdbd;
+  padding: 15px 160px 15px 40px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.subscription-input:focus {
+  outline: none;
+  border: 1px solid #858585;
+}
+
+.subscription-input-wrapper i {
+  position: absolute;
+  left: 15px;
+  top: 17px;
+}
+
+.subscription-input-wrapper button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: 11px 18px;
+  font-family: "Inter";
+}

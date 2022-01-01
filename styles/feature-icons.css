@@ -1,0 +1,29 @@
+.features-wrapper {
+  margin-top: 100px;
+  padding: 90px 0;
+  background: #f0f4f9 url(../images/map.png) center center no-repeat;
+}
+
+.features-container {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-item-count {
+  font-family: "Raleway", sans-serif;
+  color: #002147;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.feature-item-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #00b2b2;
+  text-align: center;
+  margin-top: 15px;
+}
